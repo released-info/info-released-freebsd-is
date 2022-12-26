@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1672013797-->
+<!--timestamp=1672073182-->
 
 <head>
   <meta charset="UTF-8">
@@ -21,14 +21,14 @@
   <meta property="og:url" content="https://is.freebsd.released.info" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Is FreeBSD Released?" />
-  <meta property="og:description" content="FreeBSD 13.2 will be released in 6 days! #released.info" />
+  <meta property="og:description" content="FreeBSD 13.2 will be released in 91 days! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/freebsd/freebsd-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
   <meta name="twitter:title" content="Is FreeBSD Released?" />
-  <meta name="twitter:description" content="FreeBSD 13.2 will be released in 6 days! #released.info" />
+  <meta name="twitter:description" content="FreeBSD 13.2 will be released in 91 days! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/freebsd/freebsd-logo.png" />
 
   <meta name="url" content="https://is.freebsd.released.info" />
@@ -45,7 +45,7 @@
 
 <body>
 
-  <input id="released-days" type="hidden" value="6" />
+  <input id="released-days" type="hidden" value="91" />
 
   <main role="main">
     <a href="https://released.info/index.html" class="go-back"><i class="bi bi-arrow-left"></i></a>
@@ -99,10 +99,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              There is <span class="btn-primary">no clear information</span> about release of FreeBSD 13.2
+              Days until Java 20 is officially released
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              FreeBSD 13.2 release is planned to be on <span class="btn-primary">27th March 2023</span>
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -113,7 +117,50 @@
       </div>
     </section>
 
-    
+    <section class="features-section">
+      <div class="container-lg">
+        <h2>
+          Meet FreeBSD 13.2
+        </h2>
+        <div class="row mb-5">
+          <div class="col-md-5">
+
+            <ul>
+              <li>
+                Default CPUTYPE Change
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Source-based upgrades
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-5">
+            <ul>
+              <li>
+                supported using the freebsd-update(8) utility
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Users of all powerpc architectures, after successful kernel and world installation, will need to run manually "kldxref /boot/kernel
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <a target="_blank" href="https://www.freebsd.org/releases/13.2R/relnotes/" class="btn btn-primary btn-lg">Read more</a>
+        </div>
+      </div>
+      <div class="logo-container">
+        <span role="img" aria-label="${configuration.logoAlt2}"
+          style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/freebsd-logo2.png&#39;);">
+        </span>
+      </div>
+    </section>
 
     <section class="posts-section">
       <div class="container-lg">
@@ -244,7 +291,11 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-    <h2>About</h2>
+    <h1>Version</h1>
+    To check which version of FreeBSD you are using, type the following command at the command prompt:
+    <pre>uname -r</pre>
+    This will output the version number of your FreeBSD installation.
+    <h1>About</h1>
     FreeBSD is an operating system that can run on most modern machines. The operating system is Unix-like,
     and it is accordingly programmed mostly in C. The default user interface is simply the Unix shell by default.
     As the name suggests, FreeBSD is entirely free and open. What may not be expected is that BSD actually
