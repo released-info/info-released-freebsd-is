@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1757809450-->
+<!--timestamp=1790025384-->
 
 <head>
   <meta charset="UTF-8">
@@ -12,25 +12,25 @@
           crossorigin="anonymous"></script>
   
   <title>
-    Is FreeBSD Released?
+    Is FreeBSD 16 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/freebsd/freebsd.ico" type="image/svg+xml">
-  <meta name="description" content="Is FreeBSD Released?">
+  <meta name="description" content="Is FreeBSD 16 Released?">
   <meta name="keywords" content="FreeBSD, release, date, when, os, operating, system">
-  <meta name=”robots” content="index, follow">
+  <meta name="robots" content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.freebsd.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is FreeBSD Released?" />
-  <meta property="og:description" content="There is no information about FreeBSD 15 release! Still waiting! #released.info" />
+  <meta property="og:title" content="Is FreeBSD 16 Released?" />
+  <meta property="og:description" content="FreeBSD 16 is not released. Still waiting! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/freebsd/freebsd-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is FreeBSD Released?" />
-  <meta name="twitter:description" content="There is no information about FreeBSD 15 release! Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is FreeBSD 16 Released?" />
+  <meta name="twitter:description" content="FreeBSD 16 is not released. Still waiting! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/freebsd/freebsd-logo.png" />
 
   <meta name="url" content="https://is.freebsd.released.info" />
@@ -72,13 +72,13 @@
           </li>
         </ul>
         <h2>
-          Is FreeBSD Released?
+          Is FreeBSD 16 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
 
             <div id="logo">
-              <span role="img" aria-label="${configuration.logoAlt}"
+              <span role="img" aria-label="FreeBSD logo"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/freebsd-logo.png&#39;);">
               </span>
             </div>
@@ -87,12 +87,13 @@
 
             
             
-            
+            <!-- A counter that reached zero falls back to "Not Yet" instead of an empty box until the state is updated -->
             <span>
-              <div class="white-box" id="no-information">
-                No information
+              <div class="white-box" id="not-yet">
+                Not Yet
               </div>
             </span>
+            
 
             <!-- END -->
 
@@ -101,10 +102,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              FreeBSD 14 has been released on <span class="btn-primary">20th November 2023</span>
+              FreeBSD 16.0 is expected <span class="btn-primary">in December 2027</span>, FreeBSD ships a major release every two years
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              The latest release is FreeBSD 15.1, published on <span class="btn-primary">16th June 2026</span>, FreeBSD 15.2 is scheduled for 8th December 2026
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -118,26 +123,26 @@
     <section class="features-section">
       <div class="container-lg">
         <h2>
-          Meet FreeBSD 15
+          Meet FreeBSD 16
         </h2>
         <div class="row mb-5">
           <div class="col-md-5">
 
             <ul>
               <li>
-                Container Infrastructure
+                GPL-free base system, bsddialog replaces dialog
               </li>
             </ul>
 
             <ul>
               <li>
-                ELF Kernel Dump Format
+                NTSYNC driver for Wine and Windows games
               </li>
             </ul>
 
             <ul>
               <li>
-                Package Base Initiative
+                System76 laptop ACPI driver
               </li>
             </ul>
 
@@ -145,22 +150,27 @@
           <div class="col-md-5">
             <ul>
               <li>
-                Release Schedule Changes
+                AMD ROCm GPU compute port (in progress)
               </li>
             </ul>
             <ul>
               <li>
-                Shorter Support Periods
+                Intel FRED support (in progress)
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Suspend, resume and hibernation work
               </li>
             </ul>
           </div>
         </div>
         <div class="text-center">
-          <a target="_blank" href="https://freebsdfoundation.org/blog/2024-freebsd-developer-summit-freebsd-15-release-planning/?utm_source=chatgpt.com" class="btn btn-primary btn-lg">Read more</a>
+          <a target="_blank" href="https://www.freebsd.org/releng/" class="btn btn-primary btn-lg">Read more</a>
         </div>
       </div>
       <div class="logo-container">
-        <span role="img" aria-label="${configuration.logoAlt2}"
+        <span role="img" aria-label="FreeBSD logo"
           style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/freebsd-logo2.png&#39;);">
         </span>
       </div>
@@ -177,7 +187,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Absolute FreeBSD"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-Absolute-FreeBSD.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Michael-W-Lucas-ebook/dp/B0776JKXNR?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=148efc9a2276569f8c31b135e1f77403&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -191,7 +201,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: Design and Implementation of the FreeBSD Operating System"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-Design-and-Implementation-of-the-FreeBSD-Operating-System.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Marshall-Kirk-McKusick-ebook/dp/B00O56CFEE?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=8c417e7e1c0bfffbd4f4f8cc38be541c&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -205,7 +215,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The Complete FreeBSD"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-The-Complete-FreeBSD.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Greg-Lehey/dp/0596005164?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=65ce609a8c2ffeef929879e90dba9787&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -219,7 +229,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: The Design And Implementation Of The Freebsd Operating System"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-The-Design-And-Implementation-Of-The-Freebsd-Operating-System.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Marshall-K-McKusick/dp/0201702452?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=d0506393cb31dd2037192d16349c6b08&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -233,7 +243,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: FreeBSD Device Drivers"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-FreeBSD-Device-Drivers.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Joseph-Kong/dp/1593272049?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=2305d1f034f399374747f55ffcad1f33&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -247,7 +257,7 @@
             <!-- repeat below container for each image: -->
             <div class="col-md-4">
               <!-- <span role="img" aria-label="_IMAGE_ALT_" style="background-image: url('_ITERATOR_IMAGE_SRC_');">-->
-              <span role="img" aria-label="${post.imageAlt}"
+              <span role="img" aria-label="Book: FreeBSD Mastery: Advanced ZFS"
                 style="background-image: url(&#39;https://released.info/assets/img/technologies/freebsd/book-FreeBSD-mastery.jpg&#39;);">
                 <a target="_blank" href="https://www.amazon.de/-/en/Michael-W-Lucas/dp/164235001X?&amp;_encoding=UTF8&amp;tag=released-info-21&amp;linkCode=ur2&amp;linkId=a34deb4888f9c061ea55ce4cea352b07&amp;camp=1638&amp;creative=6742">
                   <span>
@@ -303,8 +313,7 @@
     FreeBSD is an operating system that can run on most modern machines. The operating system is Unix-like,
     and it is accordingly programmed mostly in C. The default user interface is simply the Unix shell by default.
     As the name suggests, FreeBSD is entirely free and open. What may not be expected is that BSD actually
-    stands for “Berkeley Software Distribution”, which points us to the fact that FreeBSD was developed in the
-    prestigious University of UCBerkeley, and is maintained and updated from this place still.
+    stands for “Berkeley Software Distribution”, which points to its origins in the Berkeley Software Distribution developed at the University of California, Berkeley; today it is maintained by the FreeBSD Project and its volunteers.
     You can download FreeBSD easily, but it is also available in the form of a CD or flash drive.<br />
     <div id="hidden-about">
         <br />
@@ -326,11 +335,7 @@
         and also handles them quite elegantly. This feature is very useful when having multiple people working on
         the same server and machine.<br />
         <h3>Releases</h3>
-        FreeBSD is currently in 13.0, with the very notable addition of making 64-bit ARM architecture a priority in
-        support.
-        The update ensued the upgrade and actualization of a number of drivers, and minor changes were made in general.
-        13.0 was released on April 13, 2021, with the previous version being released on October 27, 2020.
-        There is not an expected release date for the next version yet.
+        FreeBSD is currently at 15.1, released on 16th June 2026 (15.0 came out on 2nd December 2025). FreeBSD 15.2 is scheduled for 8th December 2026 and the next major version, FreeBSD 16.0, is planned for December 2027.
     </div>
 </div>
       </div>
